@@ -38,10 +38,12 @@ CTRL+K+D                                | Format Code
 CTRL+K+W                                | Close all Tabs
 CTRL+W                                  | Close active Tab
 CTRL+P                                  |
-CTRL+SHIFT+P                            |
+CTRL+SHIFT+P => Git Push                |
 CTRL+SHIFT+G, G                         | Goes to Source Control window
 CTRL+`                                  | Toggles Terminal window
 CTRL+.                                  | 
+F5                                      | Start HttpApi.Host application
+SHIFT+F5                                | Start HttpApi.Host application
 
 
 
