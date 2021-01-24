@@ -1,4 +1,4 @@
-# Developing ABP Framework applications in Visual Studio Code
+# Developing ABP Framework applications in VsCode
 
 In this article, I will show you my setup of VsCode how to boost up your productivity in Visual Studio Code while developing ABP Framework applications.
 
@@ -27,7 +27,6 @@ Todo Tree
 Visual Studio Keymap
 
 Razor+
-
 
 ## Favorite Keyboard shortcuts
 
@@ -107,5 +106,5 @@ Update the tools for the latest features and bug fixes.
 ```
 
 ```bash
-    restore
+    dotnet restore
 ```
