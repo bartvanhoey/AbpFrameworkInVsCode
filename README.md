@@ -28,21 +28,27 @@ Visual Studio Keymap
 
 Razor+
 
+Surround
+
 ## Favorite Keyboard shortcuts
 
-|---------------------------------------|------------------------|
-CTRL+L                                  | Remove Line
-CTRL+SHIFT+E                            | Toggle Explorer
-CTRL+K+D                                | Format Code
-CTRL+K+W                                | Close all Tabs
-CTRL+W                                  | Close active Tab
-CTRL+P                                  |
-CTRL+SHIFT+P => Git Push                |
-CTRL+SHIFT+G, G                         | Goes to Source Control window
-CTRL+`                                  | Toggles Terminal window
-CTRL+.                                  | 
-F5                                      | Start HttpApi.Host application
-SHIFT+F5                                | Start HttpApi.Host application
+| Keyboard shortcut                     | Action                                                                |
+|---------------------------------------|-----------------------------------------------------------------------|
+|'CTRL+SHIFT+T                          | Toggle Explorer
+|'CTRL+SHIFT+E                          | Focus File in Explorer
+|'CTRL+SHIFT+D                          | Debug Window
+|'CTRL+SHIFT+X                          | Extensions Window
+|'CTRL+SHIFT+G, G                       | Source Control window
+|'CTRL+L                                | Remove Line
+|'CTRL+K+D                              | Format Code
+|'CTRL+K+W                              | Close all Tabs
+|'CTRL+W                                | Close active Tab
+|'CTRL+P                                |
+|'CTRL+SHIFT+P => Git Push              | Push changes to GitHub
+|'CTRL+`                                | Toggles Terminal window
+|'CTRL+.                                | Quick Actions
+|'F5                                    | Start HttpApi.Host application
+|'SHIFT+F5                              | Stop HttpApi.Host application
 
 
 
@@ -51,6 +57,20 @@ SHIFT+F5                                | Start HttpApi.Host application
 MONOKAI
 
 ## Useful Commands
+
+### ABP
+
+### Install or Update ABP ClI
+
+```bash
+    dotnet tool install -g Volo.Abp.Cli || dotnet tool update -g Volo.Abp.Cli
+```
+
+### Create a new ABP project
+
+```bash
+    abp new <YourProjectName> -u blazor/angular
+```
 
 ### EntityFrameworkCore
 
@@ -83,6 +103,10 @@ Update the tools for the latest features and bug fixes.
 ```bash
     dotnet ef database drop
 ```
+
+
+### Run/Stop Running a Project
+
 
 
 #### Start/Stop Blazor project
